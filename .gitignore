@@ -6,3 +6,12 @@ image-4.png
 image-5.png
 image.png
 *.zip
+/dataset/ISIC2018_Task1-2_Test_Input
+*.pth
+*.pt
+/dataset/ISIC2017_DMTNet_Train
+/dataset/ISIC2018_DMTNet_Train
+/dataset/ISIC2017_Task1-2_Training_Input
+/dataset/ISIC2018_Task1-2_Training_Input
+/dataset/ISIC2018_Task1_Training_GroundTruth
+*.pyc

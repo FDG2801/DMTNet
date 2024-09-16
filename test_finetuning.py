@@ -25,7 +25,7 @@ def test(model, dataloader, nshot):
             param.requires_grad = False
     
     optimizer = optim.Adam([{"params": model.parameters(), "lr": args.lr}])
-
+    #optimizer = optim.Adam([{"params": model.parameters(), "lr": 1e-6}])
     # Freeze randomness during testing for reproducibility if needed
     utils.fix_randseed(0)
     average_meter = AverageMeter(dataloader.dataset)
@@ -75,12 +75,14 @@ if __name__ == '__main__':
 
     # Arguments parsing
     parser = argparse.ArgumentParser(description='Cross-Domain Few-Shot Semantic Segmentation Pytorch Implementation')
-    parser.add_argument('--datapath', type=str, default='../Dataset')
-    parser.add_argument('--benchmark', type=str, default='fss', choices=['fss', 'deepglobe', 'isic', 'lung', 'pascal'])
+    #parser.add_argument('--datapath', type=str, default='../Dataset')
+    parser.add_argument('--datapath', type=str, default='./dataset')
+    parser.add_argument('--benchmark', type=str, default='isic', choices=['fss', 'deepglobe', 'isic', 'lung', 'pascal'])
     parser.add_argument('--logpath', type=str, default='./test_logs')
     parser.add_argument('--bsz', type=int, default=30)
     parser.add_argument('--nworker', type=int, default=0)
     parser.add_argument('--load', type=str, default='path_to_your_trained_model')
+    #parser.add_argument('--load', type=str, default='pretrained_ckpt/trained_models/resnet50/best_model.pt')
     parser.add_argument('--fold', type=int, default=0)
     parser.add_argument('--nshot', type=int, default=1)
     parser.add_argument('--backbone', type=str, default='resnet50', choices=['vgg16', 'resnet50'])
