@@ -17,13 +17,20 @@ class DatasetISIC(Dataset):
         if self.split == 'test':
             self.num = num
             self.categories = ['1','2','3']
+            #self.categories = ['1','2'] #ISIC2018
+            #self.categories = ['2','3'] #ISIC2017
 
         self.base_path = os.path.join(datapath, 'ISIC')
+        #ISIC2018
         self.img_path = os.path.join(self.base_path, 'ISIC2018_Task1-2_Training_Input')
         self.ann_path = os.path.join(self.base_path, 'ISIC2018_Task1_Training_GroundTruth')
+        #ISIC2017
+        # self.img_path = os.path.join(self.base_path, 'ISIC2017_Task1-2_Training_Input')
+        # self.ann_path = os.path.join(self.base_path, 'ISIC2017_Task1_Training_GroundTruth')
         self.transform = transform
 
         self.class_ids = range(0, 3)
+        #self.class_ids = range(0, 2)
         self.img_metadata_classwise = self.build_img_metadata_classwise()       
 
     def __len__(self):
@@ -77,7 +84,10 @@ class DatasetISIC(Dataset):
     def sample_episode(self, idx):
         class_id = idx % len(self.class_ids)
         class_sample = self.categories[class_id]
-
+        #Debug
+        print(f"Class sample: {class_sample}")
+        print(f"Image metadata: {self.img_metadata_classwise[class_sample]}")
+        #End debug
         query_name = np.random.choice(self.img_metadata_classwise[class_sample], 1, replace=False)[0]
         support_names = []
         while True:  # keep sampling support set if query == support
