@@ -17,7 +17,8 @@ class DatasetISIC(Dataset):
         if self.split == 'test':
             self.num = num
             #self.categories = ['1','2','3']
-            self.categorie = ['1','2']
+            self.categories = ['1','2'] #ISIC2018
+            #self.categories = ['2','3'] #ISIC2017
 
         self.base_path = os.path.join(datapath, 'ISIC')
         self.img_path = os.path.join(self.base_path, 'ISIC2018_Task1-2_Training_Input')
