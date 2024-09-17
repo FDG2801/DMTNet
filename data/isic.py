@@ -77,7 +77,10 @@ class DatasetISIC(Dataset):
     def sample_episode(self, idx):
         class_id = idx % len(self.class_ids)
         class_sample = self.categories[class_id]
-
+        #Debug
+        print(f"Class sample: {class_sample}")
+        print(f"Image metadata: {self.img_metadata_classwise[class_sample]}")
+        #End debug
         query_name = np.random.choice(self.img_metadata_classwise[class_sample], 1, replace=False)[0]
         support_names = []
         while True:  # keep sampling support set if query == support
