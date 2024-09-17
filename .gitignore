@@ -15,3 +15,4 @@ image.png
 /dataset/ISIC2018_Task1-2_Training_Input
 /dataset/ISIC2018_Task1_Training_GroundTruth
 *.pyc
+/dataset/ISIC
