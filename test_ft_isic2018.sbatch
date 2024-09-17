@@ -18,4 +18,4 @@ module load nvidia/cudasdk/11.6
 source ~/.bashrc
 conda activate condapip
 # 3 Run the python script
-python test_finetuning.py --backbone resnet50 --benchmark isic --nshot {1, 5} --load pretrained_ckpt/trained_models/resnet50/best_model.pt --lr 1e-6
+python test_finetuning.py --backbone resnet50 --benchmark isic --nshot 1 --load pretrained_ckpt/trained_models/resnet50/best_model.pt --lr 1e-6
