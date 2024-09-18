@@ -1,0 +1,601 @@
+ID,Class
+ISIC_0012086,seborrheic keratosis
+ISIC_0012092,nevus
+ISIC_0012095,nevus
+ISIC_0012134,seborrheic keratosis
+ISIC_0012136,seborrheic keratosis
+ISIC_0012147,nevus
+ISIC_0012149,nevus
+ISIC_0012152,nevus
+ISIC_0012178,seborrheic keratosis
+ISIC_0012199,seborrheic keratosis
+ISIC_0012207,seborrheic keratosis
+ISIC_0012215,seborrheic keratosis
+ISIC_0012216,nevus
+ISIC_0012223,seborrheic keratosis
+ISIC_0012240,seborrheic keratosis
+ISIC_0012248,seborrheic keratosis
+ISIC_0012258,melanoma
+ISIC_0012265,seborrheic keratosis
+ISIC_0012266,seborrheic keratosis
+ISIC_0012272,seborrheic keratosis
+ISIC_0012273,seborrheic keratosis
+ISIC_0012314,seborrheic keratosis
+ISIC_0012323,seborrheic keratosis
+ISIC_0012330,seborrheic keratosis
+ISIC_0012356,melanoma
+ISIC_0012357,nevus
+ISIC_0012358,seborrheic keratosis
+ISIC_0012364,seborrheic keratosis
+ISIC_0012369,melanoma
+ISIC_0012372,seborrheic keratosis
+ISIC_0012375,seborrheic keratosis
+ISIC_0012387,seborrheic keratosis
+ISIC_0012388,seborrheic keratosis
+ISIC_0012395,melanoma
+ISIC_0012414,seborrheic keratosis
+ISIC_0012425,melanoma
+ISIC_0012428,seborrheic keratosis
+ISIC_0012432,seborrheic keratosis
+ISIC_0012447,seborrheic keratosis
+ISIC_0012448,seborrheic keratosis
+ISIC_0012484,nevus
+ISIC_0012493,nevus
+ISIC_0012510,seborrheic keratosis
+ISIC_0012522,seborrheic keratosis
+ISIC_0012537,seborrheic keratosis
+ISIC_0012548,seborrheic keratosis
+ISIC_0012551,nevus
+ISIC_0012654,nevus
+ISIC_0012656,nevus
+ISIC_0012705,seborrheic keratosis
+ISIC_0012708,nevus
+ISIC_0012722,nevus
+ISIC_0012757,seborrheic keratosis
+ISIC_0012758,melanoma
+ISIC_0012786,seborrheic keratosis
+ISIC_0012803,nevus
+ISIC_0012836,nevus
+ISIC_0012837,nevus
+ISIC_0012848,seborrheic keratosis
+ISIC_0012852,seborrheic keratosis
+ISIC_0012903,nevus
+ISIC_0012904,nevus
+ISIC_0012928,seborrheic keratosis
+ISIC_0012941,nevus
+ISIC_0012955,seborrheic keratosis
+ISIC_0012967,nevus
+ISIC_0012974,seborrheic keratosis
+ISIC_0012989,melanoma
+ISIC_0013030,seborrheic keratosis
+ISIC_0013035,seborrheic keratosis
+ISIC_0013045,nevus
+ISIC_0013070,nevus
+ISIC_0013072,melanoma
+ISIC_0013073,melanoma
+ISIC_0013085,seborrheic keratosis
+ISIC_0013109,nevus
+ISIC_0013159,nevus
+ISIC_0013164,nevus
+ISIC_0013169,seborrheic keratosis
+ISIC_0013170,seborrheic keratosis
+ISIC_0013176,nevus
+ISIC_0013191,nevus
+ISIC_0013203,seborrheic keratosis
+ISIC_0013216,nevus
+ISIC_0013226,nevus
+ISIC_0013230,nevus
+ISIC_0013242,melanoma
+ISIC_0013269,nevus
+ISIC_0013270,seborrheic keratosis
+ISIC_0013271,seborrheic keratosis
+ISIC_0013277,melanoma
+ISIC_0013281,seborrheic keratosis
+ISIC_0013291,nevus
+ISIC_0013319,seborrheic keratosis
+ISIC_0013321,melanoma
+ISIC_0013325,nevus
+ISIC_0013374,melanoma
+ISIC_0013393,seborrheic keratosis
+ISIC_0013399,nevus
+ISIC_0013411,melanoma
+ISIC_0013414,melanoma
+ISIC_0013416,nevus
+ISIC_0013455,melanoma
+ISIC_0013457,melanoma
+ISIC_0013459,melanoma
+ISIC_0013465,seborrheic keratosis
+ISIC_0013472,melanoma
+ISIC_0013473,melanoma
+ISIC_0013511,nevus
+ISIC_0013512,nevus
+ISIC_0013529,nevus
+ISIC_0013565,melanoma
+ISIC_0013577,melanoma
+ISIC_0013588,melanoma
+ISIC_0013600,nevus
+ISIC_0013602,nevus
+ISIC_0013615,melanoma
+ISIC_0013617,melanoma
+ISIC_0013636,melanoma
+ISIC_0013673,seborrheic keratosis
+ISIC_0013678,melanoma
+ISIC_0013696,melanoma
+ISIC_0013708,seborrheic keratosis
+ISIC_0013733,melanoma
+ISIC_0013738,nevus
+ISIC_0013739,melanoma
+ISIC_0013764,seborrheic keratosis
+ISIC_0013766,melanoma
+ISIC_0013767,melanoma
+ISIC_0013794,nevus
+ISIC_0013809,nevus
+ISIC_0013813,melanoma
+ISIC_0013814,melanoma
+ISIC_0013833,melanoma
+ISIC_0013842,melanoma
+ISIC_0013867,melanoma
+ISIC_0013891,nevus
+ISIC_0013897,nevus
+ISIC_0013908,melanoma
+ISIC_0013911,nevus
+ISIC_0013917,melanoma
+ISIC_0013925,melanoma
+ISIC_0013948,melanoma
+ISIC_0013953,melanoma
+ISIC_0013966,nevus
+ISIC_0013977,seborrheic keratosis
+ISIC_0013987,melanoma
+ISIC_0013988,melanoma
+ISIC_0013998,nevus
+ISIC_0014006,seborrheic keratosis
+ISIC_0014027,melanoma
+ISIC_0014059,melanoma
+ISIC_0014077,melanoma
+ISIC_0014090,nevus
+ISIC_0014103,melanoma
+ISIC_0014110,melanoma
+ISIC_0014117,nevus
+ISIC_0014129,melanoma
+ISIC_0014148,melanoma
+ISIC_0014160,melanoma
+ISIC_0014177,seborrheic keratosis
+ISIC_0014181,melanoma
+ISIC_0014186,melanoma
+ISIC_0014219,melanoma
+ISIC_0014221,melanoma
+ISIC_0014233,melanoma
+ISIC_0014251,seborrheic keratosis
+ISIC_0014255,melanoma
+ISIC_0014270,melanoma
+ISIC_0014278,seborrheic keratosis
+ISIC_0014284,melanoma
+ISIC_0014288,melanoma
+ISIC_0014319,melanoma
+ISIC_0014336,melanoma
+ISIC_0014349,melanoma
+ISIC_0014369,melanoma
+ISIC_0014386,seborrheic keratosis
+ISIC_0014392,seborrheic keratosis
+ISIC_0014409,seborrheic keratosis
+ISIC_0014419,seborrheic keratosis
+ISIC_0014423,melanoma
+ISIC_0014434,melanoma
+ISIC_0014454,melanoma
+ISIC_0014457,seborrheic keratosis
+ISIC_0014470,nevus
+ISIC_0014474,seborrheic keratosis
+ISIC_0014478,melanoma
+ISIC_0014489,melanoma
+ISIC_0014500,seborrheic keratosis
+ISIC_0014503,seborrheic keratosis
+ISIC_0014506,melanoma
+ISIC_0014513,melanoma
+ISIC_0014541,melanoma
+ISIC_0014542,melanoma
+ISIC_0014546,melanoma
+ISIC_0014548,melanoma
+ISIC_0014559,melanoma
+ISIC_0014567,seborrheic keratosis
+ISIC_0014574,seborrheic keratosis
+ISIC_0014575,seborrheic keratosis
+ISIC_0014586,seborrheic keratosis
+ISIC_0014587,seborrheic keratosis
+ISIC_0014588,seborrheic keratosis
+ISIC_0014590,seborrheic keratosis
+ISIC_0014600,seborrheic keratosis
+ISIC_0014619,seborrheic keratosis
+ISIC_0014626,seborrheic keratosis
+ISIC_0014627,seborrheic keratosis
+ISIC_0014629,seborrheic keratosis
+ISIC_0014631,seborrheic keratosis
+ISIC_0014634,seborrheic keratosis
+ISIC_0014643,seborrheic keratosis
+ISIC_0014644,seborrheic keratosis
+ISIC_0014645,seborrheic keratosis
+ISIC_0014647,seborrheic keratosis
+ISIC_0014648,seborrheic keratosis
+ISIC_0014649,seborrheic keratosis
+ISIC_0014652,seborrheic keratosis
+ISIC_0014653,seborrheic keratosis
+ISIC_0014663,melanoma
+ISIC_0014666,melanoma
+ISIC_0014675,nevus
+ISIC_0014677,nevus
+ISIC_0014687,nevus
+ISIC_0014693,nevus
+ISIC_0014695,melanoma
+ISIC_0014697,nevus
+ISIC_0014698,nevus
+ISIC_0014703,melanoma
+ISIC_0014720,nevus
+ISIC_0014725,nevus
+ISIC_0014727,melanoma
+ISIC_0014728,nevus
+ISIC_0014729,nevus
+ISIC_0014740,nevus
+ISIC_0014743,nevus
+ISIC_0014746,nevus
+ISIC_0014749,nevus
+ISIC_0014753,nevus
+ISIC_0014755,nevus
+ISIC_0014765,nevus
+ISIC_0014766,melanoma
+ISIC_0014768,nevus
+ISIC_0014772,melanoma
+ISIC_0014773,nevus
+ISIC_0014780,nevus
+ISIC_0014784,melanoma
+ISIC_0014786,nevus
+ISIC_0014787,nevus
+ISIC_0014790,melanoma
+ISIC_0014792,nevus
+ISIC_0014796,nevus
+ISIC_0014798,nevus
+ISIC_0014800,melanoma
+ISIC_0014807,nevus
+ISIC_0014814,nevus
+ISIC_0014815,nevus
+ISIC_0014820,nevus
+ISIC_0014822,nevus
+ISIC_0014826,melanoma
+ISIC_0014833,nevus
+ISIC_0014835,nevus
+ISIC_0014844,nevus
+ISIC_0014853,nevus
+ISIC_0014854,nevus
+ISIC_0014862,melanoma
+ISIC_0014863,nevus
+ISIC_0014867,nevus
+ISIC_0014868,nevus
+ISIC_0014872,melanoma
+ISIC_0014876,nevus
+ISIC_0014879,nevus
+ISIC_0014883,melanoma
+ISIC_0014901,nevus
+ISIC_0014907,nevus
+ISIC_0014910,nevus
+ISIC_0014912,melanoma
+ISIC_0014921,nevus
+ISIC_0014927,nevus
+ISIC_0014928,melanoma
+ISIC_0014932,melanoma
+ISIC_0014936,nevus
+ISIC_0014938,nevus
+ISIC_0014940,nevus
+ISIC_0014941,nevus
+ISIC_0014942,nevus
+ISIC_0014943,nevus
+ISIC_0014944,nevus
+ISIC_0014947,nevus
+ISIC_0014948,nevus
+ISIC_0014949,nevus
+ISIC_0014952,nevus
+ISIC_0014955,nevus
+ISIC_0014956,nevus
+ISIC_0014957,nevus
+ISIC_0014958,nevus
+ISIC_0014959,nevus
+ISIC_0014961,nevus
+ISIC_0014962,nevus
+ISIC_0014963,melanoma
+ISIC_0014964,nevus
+ISIC_0014966,nevus
+ISIC_0014968,nevus
+ISIC_0014969,nevus
+ISIC_0014973,nevus
+ISIC_0014974,nevus
+ISIC_0014977,nevus
+ISIC_0014982,melanoma
+ISIC_0014992,nevus
+ISIC_0014994,nevus
+ISIC_0014998,nevus
+ISIC_0015002,nevus
+ISIC_0015003,nevus
+ISIC_0015004,melanoma
+ISIC_0015007,nevus
+ISIC_0015008,nevus
+ISIC_0015009,nevus
+ISIC_0015011,nevus
+ISIC_0015013,nevus
+ISIC_0015015,nevus
+ISIC_0015016,nevus
+ISIC_0015018,nevus
+ISIC_0015019,nevus
+ISIC_0015020,nevus
+ISIC_0015021,nevus
+ISIC_0015023,nevus
+ISIC_0015026,nevus
+ISIC_0015030,nevus
+ISIC_0015031,nevus
+ISIC_0015034,nevus
+ISIC_0015035,nevus
+ISIC_0015037,nevus
+ISIC_0015040,nevus
+ISIC_0015041,melanoma
+ISIC_0015046,melanoma
+ISIC_0015050,melanoma
+ISIC_0015051,nevus
+ISIC_0015056,nevus
+ISIC_0015057,nevus
+ISIC_0015060,nevus
+ISIC_0015064,nevus
+ISIC_0015071,melanoma
+ISIC_0015078,nevus
+ISIC_0015089,nevus
+ISIC_0015102,nevus
+ISIC_0015115,melanoma
+ISIC_0015118,nevus
+ISIC_0015119,melanoma
+ISIC_0015125,nevus
+ISIC_0015127,melanoma
+ISIC_0015129,nevus
+ISIC_0015130,nevus
+ISIC_0015132,melanoma
+ISIC_0015133,melanoma
+ISIC_0015136,melanoma
+ISIC_0015139,nevus
+ISIC_0015140,nevus
+ISIC_0015142,melanoma
+ISIC_0015146,nevus
+ISIC_0015149,nevus
+ISIC_0015150,nevus
+ISIC_0015152,nevus
+ISIC_0015155,nevus
+ISIC_0015156,melanoma
+ISIC_0015157,nevus
+ISIC_0015160,nevus
+ISIC_0015161,nevus
+ISIC_0015163,melanoma
+ISIC_0015167,melanoma
+ISIC_0015171,nevus
+ISIC_0015173,nevus
+ISIC_0015174,nevus
+ISIC_0015175,nevus
+ISIC_0015176,nevus
+ISIC_0015179,nevus
+ISIC_0015180,melanoma
+ISIC_0015184,nevus
+ISIC_0015185,melanoma
+ISIC_0015193,melanoma
+ISIC_0015201,nevus
+ISIC_0015202,nevus
+ISIC_0015203,nevus
+ISIC_0015206,melanoma
+ISIC_0015207,nevus
+ISIC_0015208,nevus
+ISIC_0015212,nevus
+ISIC_0015215,nevus
+ISIC_0015216,nevus
+ISIC_0015217,nevus
+ISIC_0015218,nevus
+ISIC_0015223,nevus
+ISIC_0015224,nevus
+ISIC_0015226,nevus
+ISIC_0015229,melanoma
+ISIC_0015232,nevus
+ISIC_0015237,nevus
+ISIC_0015241,nevus
+ISIC_0015244,nevus
+ISIC_0015245,nevus
+ISIC_0015250,nevus
+ISIC_0015251,melanoma
+ISIC_0015254,nevus
+ISIC_0015255,nevus
+ISIC_0015258,nevus
+ISIC_0015264,nevus
+ISIC_0015270,nevus
+ISIC_0015273,nevus
+ISIC_0015274,nevus
+ISIC_0015276,nevus
+ISIC_0015279,nevus
+ISIC_0015283,nevus
+ISIC_0015291,nevus
+ISIC_0015293,nevus
+ISIC_0015298,nevus
+ISIC_0015309,nevus
+ISIC_0015310,nevus
+ISIC_0015311,nevus
+ISIC_0015312,nevus
+ISIC_0015330,nevus
+ISIC_0015331,nevus
+ISIC_0015347,nevus
+ISIC_0015353,nevus
+ISIC_0015355,nevus
+ISIC_0015357,nevus
+ISIC_0015360,nevus
+ISIC_0015363,nevus
+ISIC_0015364,nevus
+ISIC_0015368,nevus
+ISIC_0015369,nevus
+ISIC_0015383,nevus
+ISIC_0015386,nevus
+ISIC_0015390,nevus
+ISIC_0015395,nevus
+ISIC_0015403,nevus
+ISIC_0015404,nevus
+ISIC_0015411,nevus
+ISIC_0015412,nevus
+ISIC_0015416,nevus
+ISIC_0015417,nevus
+ISIC_0015418,nevus
+ISIC_0015419,nevus
+ISIC_0015436,nevus
+ISIC_0015440,nevus
+ISIC_0015447,nevus
+ISIC_0015455,nevus
+ISIC_0015464,nevus
+ISIC_0015466,nevus
+ISIC_0015468,nevus
+ISIC_0015476,nevus
+ISIC_0015481,nevus
+ISIC_0015482,nevus
+ISIC_0015485,nevus
+ISIC_0015510,nevus
+ISIC_0015526,nevus
+ISIC_0015537,nevus
+ISIC_0015544,nevus
+ISIC_0015559,nevus
+ISIC_0015563,nevus
+ISIC_0015566,nevus
+ISIC_0015568,nevus
+ISIC_0015582,nevus
+ISIC_0015593,nevus
+ISIC_0015603,nevus
+ISIC_0015607,nevus
+ISIC_0015614,nevus
+ISIC_0015617,nevus
+ISIC_0015625,nevus
+ISIC_0015631,nevus
+ISIC_0015636,nevus
+ISIC_0015638,nevus
+ISIC_0015641,nevus
+ISIC_0015645,nevus
+ISIC_0015936,nevus
+ISIC_0015937,nevus
+ISIC_0015938,nevus
+ISIC_0015939,nevus
+ISIC_0015940,nevus
+ISIC_0015941,nevus
+ISIC_0015942,nevus
+ISIC_0015943,nevus
+ISIC_0015944,nevus
+ISIC_0015945,nevus
+ISIC_0015946,nevus
+ISIC_0015947,nevus
+ISIC_0015948,nevus
+ISIC_0015949,nevus
+ISIC_0015950,nevus
+ISIC_0015951,nevus
+ISIC_0015952,nevus
+ISIC_0015953,nevus
+ISIC_0015954,nevus
+ISIC_0015955,nevus
+ISIC_0015956,nevus
+ISIC_0015957,nevus
+ISIC_0015958,nevus
+ISIC_0015959,nevus
+ISIC_0015960,nevus
+ISIC_0015961,nevus
+ISIC_0015962,nevus
+ISIC_0015963,nevus
+ISIC_0015964,nevus
+ISIC_0015965,nevus
+ISIC_0015966,nevus
+ISIC_0015967,nevus
+ISIC_0015968,nevus
+ISIC_0015969,nevus
+ISIC_0015971,nevus
+ISIC_0015972,nevus
+ISIC_0015973,nevus
+ISIC_0015974,nevus
+ISIC_0015975,nevus
+ISIC_0015976,nevus
+ISIC_0015978,nevus
+ISIC_0015979,nevus
+ISIC_0015980,nevus
+ISIC_0015981,nevus
+ISIC_0015982,nevus
+ISIC_0015983,nevus
+ISIC_0015984,nevus
+ISIC_0015985,nevus
+ISIC_0015986,nevus
+ISIC_0015987,nevus
+ISIC_0015988,nevus
+ISIC_0015989,nevus
+ISIC_0015990,nevus
+ISIC_0015991,nevus
+ISIC_0015992,nevus
+ISIC_0015993,nevus
+ISIC_0015994,nevus
+ISIC_0015995,nevus
+ISIC_0015996,nevus
+ISIC_0015997,nevus
+ISIC_0015998,nevus
+ISIC_0015999,nevus
+ISIC_0016000,nevus
+ISIC_0016001,nevus
+ISIC_0016002,nevus
+ISIC_0016003,nevus
+ISIC_0016004,nevus
+ISIC_0016005,nevus
+ISIC_0016006,nevus
+ISIC_0016007,nevus
+ISIC_0016008,nevus
+ISIC_0016009,nevus
+ISIC_0016011,nevus
+ISIC_0016012,nevus
+ISIC_0016013,nevus
+ISIC_0016014,nevus
+ISIC_0016015,nevus
+ISIC_0016016,nevus
+ISIC_0016017,nevus
+ISIC_0016018,nevus
+ISIC_0016019,nevus
+ISIC_0016022,nevus
+ISIC_0016023,nevus
+ISIC_0016024,nevus
+ISIC_0016025,nevus
+ISIC_0016026,nevus
+ISIC_0016027,nevus
+ISIC_0016028,nevus
+ISIC_0016029,nevus
+ISIC_0016030,nevus
+ISIC_0016031,nevus
+ISIC_0016033,nevus
+ISIC_0016034,nevus
+ISIC_0016035,nevus
+ISIC_0016036,nevus
+ISIC_0016037,nevus
+ISIC_0016038,nevus
+ISIC_0016040,nevus
+ISIC_0016041,nevus
+ISIC_0016042,nevus
+ISIC_0016043,nevus
+ISIC_0016044,nevus
+ISIC_0016045,nevus
+ISIC_0016046,nevus
+ISIC_0016048,nevus
+ISIC_0016049,nevus
+ISIC_0016050,nevus
+ISIC_0016051,nevus
+ISIC_0016052,nevus
+ISIC_0016053,nevus
+ISIC_0016054,nevus
+ISIC_0016055,nevus
+ISIC_0016056,nevus
+ISIC_0016057,nevus
+ISIC_0016058,nevus
+ISIC_0016059,nevus
+ISIC_0016060,nevus
+ISIC_0016061,nevus
+ISIC_0016062,nevus
+ISIC_0016063,nevus
+ISIC_0016064,nevus
+ISIC_0016065,nevus
+ISIC_0016066,nevus
+ISIC_0016068,nevus
+ISIC_0016069,nevus
+ISIC_0016070,nevus
+ISIC_0016071,nevus
+ISIC_0016072,nevus

@@ -8,6 +8,8 @@ from data.fss import DatasetFSS
 from data.deepglobe import DatasetDeepglobe
 from data.isic import DatasetISIC
 from data.lung import DatasetLung
+#FDG2801
+from data.isic2017 import DatasetISIC2017
 
 class FSSDataset:
 
@@ -19,7 +21,8 @@ class FSSDataset:
             'fss': DatasetFSS,
             'deepglobe': DatasetDeepglobe,
             'isic': DatasetISIC,
-            'lung': DatasetLung
+            'lung': DatasetLung,
+            'isic2017': DatasetISIC2017,
         }
         cls.img_mean = [0.485, 0.456, 0.406]
         cls.img_std = [0.229, 0.224, 0.225]
