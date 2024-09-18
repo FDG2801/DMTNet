@@ -12,7 +12,7 @@ import numpy as np
 class DatasetISIC2017(Dataset):
     def __init__(self, datapath, fold, transform, split, shot, num=600):
         self.split = split
-        self.benchmark = 'isic'
+        self.benchmark = 'isic2017'
         self.shot = shot
         if self.split == 'test':
             self.num = num
