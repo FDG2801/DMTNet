@@ -27,6 +27,10 @@ class AverageMeter:
             self.class_ids_interest = dataset.class_ids
             self.class_ids_interest = torch.tensor(self.class_ids_interest).cuda()
             self.nclass = 3
+        elif self.benchmark == 'isic2017':
+            self.class_ids_interest = dataset.class_ids
+            self.class_ids_interest = torch.tensor(self.class_ids_interest).cuda()
+            self.nclass = 3
         elif self.benchmark == 'lung':
             self.class_ids_interest = dataset.class_ids
             self.class_ids_interest = torch.tensor(self.class_ids_interest).cuda()
