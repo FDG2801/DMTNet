@@ -32,12 +32,12 @@ class FSSDataset:
         #                                     transforms.Normalize(cls.img_mean, cls.img_std)])
         #New data augmentation for tests
         cls.transform = transforms.Compose([
-                        transforms.Resize(size=(512, 512)),  # Nota: in torchvision, Resize accetta una tupla (height, width)
-                        transforms.Normalize(
-                            mean=[0.485, 0.456, 0.406],
-                            std=[0.229, 0.224, 0.225]
-                        ),
-                        transforms.ToTensor() 
+                            transforms.Resize(size=(512, 512)),  # Nota: in torchvision, Resize accetta una tupla (height, width)
+                            transforms.Normalize(
+                                mean=[0.485, 0.456, 0.406],
+                                std=[0.229, 0.224, 0.225]
+                            ),
+                            transforms.ToTensor() 
                     ])
 
     @classmethod
