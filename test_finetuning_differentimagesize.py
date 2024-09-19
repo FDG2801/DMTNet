@@ -105,7 +105,7 @@ if __name__ == '__main__':
     Visualizer.initialize(args.visualize)
 
     # Dataset initialization
-    FSSDataset.initialize(img_size=400, datapath=args.datapath)
+    FSSDataset.initialize(img_size=256, datapath=args.datapath)
     dataloader_test, sampler = FSSDataset.build_dataloader(args.benchmark, args.bsz, args.nworker, args.fold, 'test', args.nshot)
     model = nn.parallel.DistributedDataParallel(model.cuda(), device_ids=[local_rank], output_device=local_rank, find_unused_parameters=True)
     path = args.load
