@@ -27,9 +27,18 @@ class FSSDataset:
         cls.img_mean = [0.485, 0.456, 0.406]
         cls.img_std = [0.229, 0.224, 0.225]
         cls.datapath = datapath
-        cls.transform = transforms.Compose([transforms.Resize(size=(img_size, img_size)),
-                                            transforms.ToTensor(),
-                                            transforms.Normalize(cls.img_mean, cls.img_std)])
+        # cls.transform = transforms.Compose([transforms.Resize(size=(img_size, img_size)),
+        #                                     transforms.ToTensor(),
+        #                                     transforms.Normalize(cls.img_mean, cls.img_std)])
+        #New data augmentation for tests
+        cls.transform = transforms.Compose([
+                        transforms.Resize(size=(512, 512)),  # Nota: in torchvision, Resize accetta una tupla (height, width)
+                        transforms.Normalize(
+                            mean=[0.485, 0.456, 0.406],
+                            std=[0.229, 0.224, 0.225]
+                        ),
+                        transforms.ToTensor() 
+                    ])
 
     @classmethod
     def build_dataloader(cls, benchmark, bsz, nworker, fold, split, shot=1):
