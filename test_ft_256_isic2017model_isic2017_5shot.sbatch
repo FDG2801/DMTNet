@@ -18,4 +18,4 @@ module load nvidia/cudasdk/11.6
 source ~/.bashrc
 conda activate condapip
 # 3 Run the python script
-python -m torch.distributed.run --nnodes=1 --nproc_per_node=1 --node_rank=0 test_finetuning_differentimagesize.py --backbone resnet50 --benchmark isic --nshot 5 --load pretrained_ckpt/resnet50_isic2017_fulltrained.pth --lr 1e-4 --bsz 8
+python -m torch.distributed.run --nnodes=1 --nproc_per_node=1 --node_rank=0 test_finetuning_differentimagesize.py --backbone resnet50 --benchmark isic2017 --nshot 5 --load pretrained_ckpt/resnet50_isic2017_fulltrained.pth --lr 1e-4 --bsz 8
