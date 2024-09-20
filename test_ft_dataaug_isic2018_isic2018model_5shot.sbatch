@@ -4,7 +4,7 @@
 #SBATCH --nodes=1                   # number of nodes
 #SBATCH --ntasks=2
 #SBATCH --cpus-per-task=8
-#SBATCH --gres=gpu:2
+#SBATCH --gres=gpu:1
 #SBATCH --job-name=python-ex
 #SBATCH --mail-type=ALL
 #SBATCH --partition=cuda
