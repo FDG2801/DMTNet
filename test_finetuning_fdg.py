@@ -72,7 +72,8 @@ def test(model, dataloader, nshot):
 
 
 if __name__ == '__main__':
-
+    #Clear the cache
+    torch.cuda.empty_cache()
     # Arguments parsing
     parser = argparse.ArgumentParser(description='Cross-Domain Few-Shot Semantic Segmentation Pytorch Implementation')
     #parser.add_argument('--datapath', type=str, default='../Dataset')
