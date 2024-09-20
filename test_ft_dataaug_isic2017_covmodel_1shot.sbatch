@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=<DMTNet_ISIC2017>
 #SBATCH --nodes=1                   # number of nodes
-#SBATCH --ntasks=2
+#SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --job-name=python-ex
