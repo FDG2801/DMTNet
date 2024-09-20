@@ -13,6 +13,12 @@ from common.vis import Visualizer
 import torch.optim as optim
 import torch.nn.functional as F
 
+import gc
+del variables
+gc.collect()
+
+import torch
+torch.cuda.empty_cache()
 
 def test(model, dataloader, nshot):
     r""" Test DMTNet """
@@ -72,8 +78,6 @@ def test(model, dataloader, nshot):
 
 
 if __name__ == '__main__':
-    #Clear the cache
-    torch.cuda.empty_cache()
     # Arguments parsing
     parser = argparse.ArgumentParser(description='Cross-Domain Few-Shot Semantic Segmentation Pytorch Implementation')
     #parser.add_argument('--datapath', type=str, default='../Dataset')
