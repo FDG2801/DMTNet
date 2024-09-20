@@ -31,6 +31,7 @@ class FSSDataset:
         cls.img_mean = [0.485, 0.456, 0.406]
         cls.img_std = [0.229, 0.224, 0.225]
         cls.datapath = datapath
+        #### Original
         # cls.transform = transforms.Compose([transforms.Resize(size=(img_size, img_size)),
         #                                     transforms.ToTensor(),
         #                                     transforms.Normalize(cls.img_mean, cls.img_std)])
