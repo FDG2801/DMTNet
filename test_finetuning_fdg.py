@@ -13,10 +13,6 @@ from common.vis import Visualizer
 import torch.optim as optim
 import torch.nn.functional as F
 
-import gc
-del variables
-gc.collect()
-
 import torch
 torch.cuda.empty_cache()
 
