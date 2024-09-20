@@ -57,7 +57,7 @@ class FSSDataset:
         #             ])
         #### Third data augmentation test
         cls.transform = A.Compose([
-                        A.Resize(width=img_size,height=img_size),
+                        A.Resize(width=224,height=224),
                         ToTensorV2(),
                         A.Normalize(
                             mean=[0.485, 0.456, 0.406],
