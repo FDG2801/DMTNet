@@ -81,7 +81,7 @@ if __name__ == '__main__':
     parser.add_argument('--datapath', type=str, default='Dataset')
     parser.add_argument('--benchmark', type=str, default='isic', choices=['fss', 'deepglobe', 'isic', 'lung', 'pascal','isic2017'])
     parser.add_argument('--logpath', type=str, default='test_logs')
-    parser.add_argument('--bsz', type=int, default=16) #30
+    parser.add_argument('--bsz', type=int, default=30) #30
     parser.add_argument('--nworker', type=int, default=0)
     parser.add_argument('--load', type=str, default='path_to_your_trained_model')
     #parser.add_argument('--load', type=str, default='pretrained_ckpt/trained_models/resnet50/best_model.pt')
