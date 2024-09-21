@@ -199,10 +199,8 @@ class FSSDataset:
             ], p=0.3), 
             transforms.ToTensor(),
             transforms.Normalize(
-                mean=[0.485, 0.456, 0.406], # ISIC2017: [0.763, 0.545, 0.570], [0.684, 0.483, 0.519]; 
-                std=[0.229, 0.224, 0.225] # ISIC2017:  [0.140, 0.152, 0.169], [0.185, 0.186, 0.199]; 
-                # mean=[0.684, 0.483, 0.519],
-                # std=[0.229, 0.224, 0.225]
+                mean=[0.763, 0.545, 0.570],
+                std=[0.140, 0.152, 0.169]
             ),
             transforms.Lambda(lambda x: clamp_to_max_pixel_value(x, max_pixel_value=255.0))
         ])

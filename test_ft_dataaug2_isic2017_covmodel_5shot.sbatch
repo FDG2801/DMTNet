@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=<DMTNet_ISIC2017>
 #SBATCH --nodes=1                   # number of nodes
-#SBATCH --ntasks=1
+#SBATCH --ntasks=2
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
 #SBATCH --job-name=python-ex
@@ -18,4 +18,4 @@ module load nvidia/cudasdk/11.6
 source ~/.bashrc
 conda activate condapip
 # 3 Run the python script
-python -m torch.distributed.run --nnodes=1 --nproc_per_node=1 --node_rank=0 test_finetuning_fdg.py --backbone resnet50 --benchmark isic2017 --nshot 1 --load pretrained_ckpt/trained_models/cov_model/resnet50_COV_lungandinf_fulltrained.pth --lr 1e-4 --bsz 15
+python -m torch.distributed.run --nnodes=1 --nproc_per_node=1 --node_rank=0 test_finetuning_fdg_2.py --backbone resnet50 --benchmark isic2017 --nshot 5 --load pretrained_ckpt/trained_models/cov_model/resnet50_COV_lungandinf_fulltrained.pth --lr 1e-6
