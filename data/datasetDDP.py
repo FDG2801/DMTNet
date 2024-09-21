@@ -86,14 +86,11 @@ class FSSDataset:
             ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
             ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-6; mIoU; FBIoU; imgsize 300x300
             ---
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
             ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
             ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
             ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
             # mean=[0.684, 0.483, 0.519],
             # std=[0.229, 0.224, 0.225]
@@ -127,9 +124,8 @@ class FSSDataset:
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU; FBIoU; imgsize 300x300
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; mIoU; FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
@@ -168,19 +164,22 @@ class FSSDataset:
         5 SHOT
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; mIoU; FBIoU; imgsize 300x300
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; mIoU, FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
             # mean=[0.684, 0.483, 0.519],
             # std=[0.229, 0.224, 0.225]
+            ---
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
+            mean=[0.684, 0.483, 0.519],
+            std=[0.185, 0.186, 0.199]
         '''
         def clamp_to_max_pixel_value(tensor, max_pixel_value=255.0):
             return torch.clamp(tensor * max_pixel_value, 0, max_pixel_value) / max_pixel_value
