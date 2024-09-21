@@ -91,6 +91,7 @@ if __name__ == '__main__':
     parser.add_argument('--visualize', action='store_true')
     parser.add_argument('--lr', type=float, default=1e-3)
     parser.add_argument('--finetuning', type=str, default='True')
+    #parser.add_argument('--datype', type=int, default=1)
     args = parser.parse_args()
     Logger.initialize(args, training=False)
 
