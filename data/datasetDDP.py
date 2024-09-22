@@ -64,16 +64,16 @@ class FSSDataset:
             std=[0.229, 0.224, 0.225]
             ---
         5 SHOT
-            ISIC 2018; COV MODEL; 1 SHOT; LR 1E-4; 21.86 mIoU, 12.78 FBIoU; imgsize 300x300
-            ISIC 2018; COV MODEL; 1 SHOT; LR 1E-6; 26.51 mIoU, 42.83 FBIoU; imgsize 300x300
+            ISIC 2018; COV MODEL; 5 SHOT; LR 1E-4; 21.86 mIoU, 12.78 FBIoU; imgsize 300x300
+            ISIC 2018; COV MODEL; 5 SHOT; LR 1E-6; 26.51 mIoU, 42.83 FBIoU; imgsize 300x300
             ---
-            ISIC 2018; COV MODEL; 1 SHOT; LR 1E-6; 27.23 mIoU, 37.70 FBIoU; imgsize 300x300
+            ISIC 2018; COV MODEL; 5 SHOT; LR 1E-6; 27.23 mIoU, 37.70 FBIoU; imgsize 300x300
             # mean=[0.684, 0.483, 0.519],
             # std=[0.229, 0.224, 0.225]
             ---
-            ISIC 2018; COV MODEL; 1 SHOT; LR 1E-4; 00.00 mIoU, 35.0+ FBIoU; imgsize 300x300
-            ISIC 2018; COV MODEL; 1 SHOT; LR 1E-3; 24.10 mIoU, 20.22 FBIoU; imgsize 300x300
-            ISIC 2018; COV MODEL; 1 SHOT; LR 1E-5; 25.65 mIoU, 25.44 FBIoU; imgsize 300x300
+            ISIC 2018; COV MODEL; 5 SHOT; LR 1E-4; 00.00 mIoU, 35.0+ FBIoU; imgsize 300x300
+            ISIC 2018; COV MODEL; 5 SHOT; LR 1E-3; 24.10 mIoU, 20.22 FBIoU; imgsize 300x300
+            ISIC 2018; COV MODEL; 5 SHOT; LR 1E-5; 25.65 mIoU, 25.44 FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.229, 0.224, 0.225]
             ---
@@ -96,15 +96,15 @@ class FSSDataset:
             ---
         5 SHOT
         ----
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-4; 21.41 mIoU; 10.70 FBIoU; imgsize 300x300
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-6; 21.74 mIoU; 26.65 FBIoU; imgsize 300x300
+            ISIC 2018; ISIC 2018 MODEL; 5 SHOT; LR 1E-4; 21.41 mIoU; 10.70 FBIoU; imgsize 300x300
+            ISIC 2018; ISIC 2018 MODEL; 5 SHOT; LR 1E-6; 21.74 mIoU; 26.65 FBIoU; imgsize 300x300
             ---
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-4; 24.06 mIoU; 22.74 FBIoU; imgsize 300x300
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-6; 26.46 mIoU, 15.74 FBIoU; imgsize 300x300
+            ISIC 2018; ISIC 2018 MODEL; 5 SHOT; LR 1E-4; 24.06 mIoU; 22.74 FBIoU; imgsize 300x300
+            ISIC 2018; ISIC 2018 MODEL; 5 SHOT; LR 1E-6; 26.46 mIoU, 15.74 FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
-            ISIC 2018; ISIC 2018 MODEL; 1 SHOT; LR 1E-6; 25.79 mIoU, 12.52 FBIoU; imgsize 300x300
+            ISIC 2018; ISIC 2018 MODEL; 5 SHOT; LR 1E-6; 25.79 mIoU, 12.52 FBIoU; imgsize 300x300
             mean=[0.684, 0.483, 0.519],
             std=[0.229, 0.224, 0.225]
             ---
@@ -133,23 +133,23 @@ class FSSDataset:
             std=[0.185, 0.186, 0.199]
             ---
         5 SHOT
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; 25.75 mIoU; 13.02 FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; 26.31 mIoU; 45.10 FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; 27.76 mIoU; 19.63 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-3; 25.75 mIoU; 13.02 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-4; 26.31 mIoU; 45.10 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-6; 27.76 mIoU; 19.63 FBIoU; imgsize 300x300
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; 30.05 mIoU; 14.42 FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; 19.42 mIoU; 41.64 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-4; 30.05 mIoU; 14.42 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-6; 19.42 mIoU; 41.64 FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; 25.75 mIoU; 16.89 FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; 25.61 mIoU; 12.88 FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; 25.68 mIoU, 16.88FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-3; 25.75 mIoU; 16.89 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-4; 25.61 mIoU; 12.88 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-6; 25.68 mIoU, 16.88FBIoU; imgsize 300x300
             mean=[0.684, 0.483, 0.519],
             std=[0.229, 0.224, 0.225]
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; 26.73 mIoU; 16.22 FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; 26.66 mIoU, 16.00 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-3; 26.73 mIoU; 16.22 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-6; 26.66 mIoU, 16.00 FBIoU; imgsize 300x300
             mean=[0.684, 0.483, 0.519],
             std=[0.185, 0.186, 0.199]
             ---
@@ -175,22 +175,21 @@ class FSSDataset:
             std=[0.185, 0.186, 0.199]
             ---
         5 SHOT
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-5; mIoU; FBIoU; imgsize 300x300
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; 26.00 mIoU, 13.20FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-5; 26.00 mIoU, 13.20FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-6; 30.05 mIoU, 15.60 FBIoU; imgsize 300x300
             mean=[0.684, 0.483, 0.519],
             std=[0.229, 0.224, 0.225]
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-4; 29.00 mIoU; 27.00 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
             mean=[0.684, 0.483, 0.519],
             std=[0.185, 0.186, 0.199]
         '''
