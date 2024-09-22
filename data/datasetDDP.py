@@ -142,14 +142,14 @@ class FSSDataset:
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; 25.75 mIoU; 16.89 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; 25.61 mIoU; 12.88 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; 25.68 mIoU, 16.88FBIoU; imgsize 300x300
             mean=[0.684, 0.483, 0.519],
             std=[0.229, 0.224, 0.225]
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; mIoU, FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-3; 26.73 mIoU; 16.22 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-6; 26.66 mIoU, 16.00 FBIoU; imgsize 300x300
             mean=[0.684, 0.483, 0.519],
             std=[0.185, 0.186, 0.199]
             ---
@@ -179,7 +179,7 @@ class FSSDataset:
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
             ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; mIoU; FBIoU; imgsize 300x300
             ---
-            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; mIoU, FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 1 SHOT; LR 1E-5; 26.00 mIoU, 13.20FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
             std=[0.140, 0.152, 0.169]
             ---
@@ -198,17 +198,17 @@ class FSSDataset:
             return torch.clamp(tensor * max_pixel_value, 0, max_pixel_value) / max_pixel_value
 
         cls.transform = transforms.Compose([
-            transforms.Resize(size=(300, 300)),  # Aumenta leggermente la dimensione iniziale per preservare più dettagli
+            transforms.Resize(size=(300, 300)),  
             #transforms.ToTensor(),
-            transforms.RandomCrop(size=(256, 256)),  # Ritaglia casualmente per variare la posizione della lesione e aumentare il dataset
+            transforms.RandomCrop(size=(256, 256)),  
             transforms.RandomHorizontalFlip(p=0.5),
-            transforms.RandomVerticalFlip(p=0.3),   # Aumenta leggermente la probabilità di flip verticale
-            transforms.RandomRotation(degrees=(-15, 15)), # Aumenta leggermente l'intervallo di rotazione
-            transforms.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.15),  # Aumenta leggermente la gamma di variazioni di colore
-            transforms.RandomApply([transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.5))], p=0.4),  # Aumenta leggermente la probabilità e la gamma di sfocatura
+            transforms.RandomVerticalFlip(p=0.3),   
+            transforms.RandomRotation(degrees=(-15, 15)), 
+            transforms.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.15),  
+            transforms.RandomApply([transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.5))], p=0.4),  
             transforms.RandomApply([
-                transforms.Lambda(lambda img: transforms.functional.adjust_gamma(img, gamma=random.uniform(0.7, 1.3))),  # Aumenta la gamma di variazioni di gamma
-                transforms.Lambda(lambda img: transforms.functional.adjust_sharpness(img, sharpness_factor=random.uniform(0.8, 1.2))) # Aggiungi variazioni di nitidezza
+                transforms.Lambda(lambda img: transforms.functional.adjust_gamma(img, gamma=random.uniform(0.7, 1.3))),  
+                transforms.Lambda(lambda img: transforms.functional.adjust_sharpness(img, sharpness_factor=random.uniform(0.8, 1.2))) 
             ], p=0.3), 
             transforms.ToTensor(),
             transforms.Normalize(
