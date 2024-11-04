@@ -175,9 +175,10 @@ class FSSDataset:
             std=[0.185, 0.186, 0.199]
             ---
         5 SHOT
-            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-3; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-4; mIoU; FBIoU; imgsize 300x300
-            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-5; mIoU; FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-3; 32.20 mIoU; 14.66 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-4; 25.75 mIoU; 12.88 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-5; 26.36 mIoU; 15.07 FBIoU; imgsize 300x300
+            ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-6; 26.10 mIoU; 14.80 FBIoU; imgsize 300x300
             ---
             ISIC 2017; ISIC 2017 MODEL; 5 SHOT; LR 1E-5; 26.00 mIoU, 13.20FBIoU; imgsize 300x300
             mean=[0.763, 0.545, 0.570],
